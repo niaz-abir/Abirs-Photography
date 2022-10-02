@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              offBlack: "#131313",
+            },
+            fontFamily: {
+              bebas: ["Bebas Neue", "cursive"],
+              montserrat: ["Montserrat", "sans-serif"],
+            },
+            backgroundImage: {
+              banner: "url('banner1.jpg')",
+              about: "url('about-1.jpg')",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <section class="W-3/4">
+      <!-- nav section start here -->
+      <nav
+        class="flex justify-between items-center h-20 px-6 md:px-24 lg:px-52 bg-white font-bebas absolute w-full"
+      >
+        <h1 class="text-3xl lg:ml-5 tracking-wider">Abir's Photography</h1>
+        <ul class="flex gap-3 text-lg">
+          <li
+            class="tracking-wider hover:text-blue-500 ease-in-out duration-300"
+          >
+            Home
+          </li>
+          <li
+            class="tracking-wider hover:text-blue-500 ease-in-out duration-300"
+          >
+            Contact
+          </li>
+          <li
+            class="tracking-wider hover:text-blue-500 ease-in-out duration-300"
+          >
+            Album
+          </li>
+          <li
+            class="tracking-wider hover:text-blue-500 ease-in-out duration-300"
+          >
+            Contact
+          </li>
+        </ul>
+      </nav>
+      <!-- nav section end here -->
+    </section>
+    <!-- main section start here -->
+    <main>
+      <!-- header section start  here -->
+      <section class="pt-20 bg-banner h-screen bg-cover items-center">
+        <div class="ml-24 mt-10 font-bebas">
+          <p class="uppercase tracking-wide">Photography production studio</p>
+          <h1 class="text-6xl text-white mt-3">
+            Photography made to <span class="text-black"> perfection</span>
+          </h1>
+          <p class="font-montserrat mt-4 text-gray-700">
+            There are lot of beautiful thing beside our .Which make good
+            emotion<br />
+            and also make our mind fresh.We can try to take this moment in
+            device
+          </p>
+          <button
+            class="mt-6 text-xl border-2 py-2 px-4 border-black hover:bg-blue-300 hover:border-blue-300 hover:ease-out duration-300 rounded"
+          >
+            Discover more
+          </button>
+        </div>
+      </section>
+      <!-- header section end  here -->
+      <!-- About us section start here -->
+      <section class="mt-22">
+        <div class="flex flex-col lg:flex-row h-full mb-36 ml-20 mt-20">
+          <div
+            class="bg-about bg-cover items-center w-70 w-2/4 h-70 rounded-t-md"
+          ></div>
+
+          <div class="w-2/4 ml-8 mt-40 mr-7">
+            <h1 class="text-5xl font-bebas">
+              Photography Experience<br />
+              Just Got Better
+            </h1>
+            <h3 class="mt-2 text-3xl">Hello, I am Niaz Abir</h3>
+            <p class="mt-4 text-1xl">
+              Last three years i try to do great Photography in our country .Lot
+              of time i take lot of picture which says lot of in ou social
+              ,personal experience, life of human.There are lot people come with
+              me for say something with their photo.
+            </p>
+            <button
+              class="mt-6 text-xl border-2 py-2 px-4 border-black hover:bg-blue-300 hover:border-blue-300 hover:ease-out duration-300 rounded"
+            >
+              Explore me
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- About us section end here -->
+      <!-- photography section start here -->
+      <section class="mt-20 border-black h-full mb-36">
+        <h1 class="text-center text-5xl mb-10 font-bebas">OUR ALBUM</h1>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-4 items-center ml-20"
+        >
+          <div>
+            <img class="h-80 rounded-md" src="pic1 (1).jpg" />
+          </div>
+          <div>
+            <img class="h-80 rounded-md" src="pic1 (2).jpg" />
+          </div>
+          <div>
+            <img class="h-80 rounded-md" src="pic1 (3).jpg" />
+          </div>
+        </div>
+      </section>
+      <!-- our studio section start here -->
+      <section class="h-full mb-36">
+        <h1 class="text-center text-5xl mb-10 font-bebas">Our Studio</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ml-20 gap-4">
+          <div>
+            <img class="h-80 w-50 rounded-md" src="st1 (1).jpg" />
+          </div>
+          <div>
+            <img class="h-80 rounded-md" src="st1 (2).jpg" />
+          </div>
+          <div>
+            <img class="h-80 rounded-md" src="st1 (3).jpg" />
+          </div>
+          <div>
+            <img class="h-80 rounded-md" src="st4.jpg" />
+          </div>
+        </div>
+      </section>
+      <!-- contact section start here -->
+      <section class="h-full mb-36">
+        <h1 class="text-center font-babes text-5xl mb-6 font-bebas">
+          CONTACT WITH US...
+        </h1>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 ml-20 mr-10"
+        >
+          <div
+            class="border-2 p-7 border-blue-400 border-double text-center shadow-2xl rounded-md"
+          >
+            <h3 class="text-3xl text-black font-babes font-bold">
+              Wedding photography
+            </h3>
+            <h4 class="text-2xl mt-2">Three days</h4>
+            <h5 class="mt-2">45000TAKA</h5>
+          </div>
+          <div
+            class="border-2 p-7 border-blue-400 border-double text-center shadow-2xl rounded-md"
+          >
+            <h3 class="text-3xl text-black font-babes font-bold">
+              personal photography
+            </h3>
+            <h4 class="text-2xl mt-2">One day</h4>
+            <h5 class="mt-2">15000TAKA</h5>
+          </div>
+          <div
+            class="border-2 p-7 border-blue-400 border-double text-center shadow-2xl rounded-md"
+          >
+            <h3 class="text-3xl text-black font-babes font-bold">
+              Tour photography
+            </h3>
+            <h4 class="text-2xl mt-2">far day</h4>
+            <h5 class="mt-2">17000TAKA</h5>
+          </div>
+        </div>
+      </section>
+      <header>
+        <section class="bg-blue-300 text-center pt-16 rounded pb-6">
+          <h1 class="text-4xl font-babes font-semibold">Abir's Photography</h1>
+          <h3 class="text-2xl mt-2">A variable of lot moment</h3>
+          <p class="text-1xl text-gray-500 mt-2">Khulsi,Chittagong</p>
+          <p class="text-1xl text-gray-500 mt-2">road 1238 warles jalalbad</p>
+
+          <p><small class="text-black pt-6">@niazabirgmail.com</small></p>
+        </section>
+      </header>
+    </main>
+    <!-- main section end here -->
+  </body>
+</html>
